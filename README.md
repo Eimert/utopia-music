@@ -21,6 +21,11 @@ upload to algolia to index: https://www.algolia.com/apps/
 ## Running:
 `npm start`
 
+## Deployment to GitHub Pages:
+```
+npm run deploy
+```
+
 ## Rerefences
 [https://github.com/gitname/react-gh-pages]()
 [https://stackoverflow.com/questions/65197385/how-to-change-sourcemappingurl-in-parcel-js]()
