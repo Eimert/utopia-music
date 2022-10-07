@@ -1,0 +1,24 @@
+{
+  "name": "utopia-music",
+  "version": "1.0.0",
+  "private": true,
+  "homepage": "https://eimert.github.io/utopia-music",
+  "scripts": {
+    "start": "parcel index.html --port 3000",
+    "build": "parcel build index.html",
+    "lint": "eslint . && prettier --check .",
+    "lint:fix": "eslint . --fix && prettier --write ."
+  },
+  "devDependencies": {
+    "eslint": "8.15.0",
+    "gh-pages": "^4.0.0",
+    "parcel": "2.0.1",
+    "prettier": "2.6.2"
+  },
+  "dependencies": {
+    "algoliasearch": "4",
+    "instantsearch.js": "4.47.0"
+  },
+  "predeploy": "npm run build",
+  "deploy": "gh-pages -d build"
+}
