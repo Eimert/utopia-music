@@ -7,7 +7,9 @@
     "start": "parcel index.html --port 3000",
     "build": "parcel build index.html",
     "lint": "eslint . && prettier --check .",
-    "lint:fix": "eslint . --fix && prettier --write ."
+    "lint:fix": "eslint . --fix && prettier --write .",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist/"
   },
   "devDependencies": {
     "eslint": "8.15.0",
@@ -18,7 +20,5 @@
   "dependencies": {
     "algoliasearch": "4",
     "instantsearch.js": "4.47.0"
-  },
-  "predeploy": "npm run build",
-  "deploy": "gh-pages -d build"
+  }
 }
