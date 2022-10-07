@@ -5,7 +5,7 @@
   "homepage": "https://eimert.github.io/utopia-music",
   "scripts": {
     "start": "parcel index.html --port 3000",
-    "build": "parcel build index.html",
+    "build": "parcel build index.html --public-url ./",
     "lint": "eslint . && prettier --check .",
     "lint:fix": "eslint . --fix && prettier --write .",
     "predeploy": "npm run build",
