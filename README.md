@@ -19,7 +19,11 @@ save as json
 upload to algolia to index: https://www.algolia.com/apps/
 
 ## Running:
-`npm start`
+```
+cd utopia-music-app/
+npm start
+```
+http://localhost:3000
 
 ## Deployment to GitHub Pages:
 ```
