@@ -14,8 +14,10 @@ http://localhost:3000
 
 ## Deployment to GitHub Pages:
 ```
+cd utopia-music-app/
 npm run deploy
 ```
+https://eimert.github.io/utopia-music/
 
 ## Creating the search index from scratch
 
