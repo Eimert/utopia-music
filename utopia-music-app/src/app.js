@@ -18,12 +18,16 @@ search.addWidgets([
     container: '#hits',
     templates: {
       item: `
-<article>
-  <h1>{{#helpers.highlight}}{ "attribute": "title" }{{/helpers.highlight}}</h1>
-  <p>{{#helpers.highlight}}{ "attribute": "description" }{{/helpers.highlight}}</p>
-  <a href={{#helpers.highlight}}{ "attribute": "youtube" }{{/helpers.highlight}} target="_BLANK">youtube</a>
-</article>
-`,
+      <article>
+        <h1>{{#helpers.highlight}}{ "attribute": "title" }{{/helpers.highlight}}</h1>
+        <p>{{#helpers.highlight}}{ "attribute": "description" }{{/helpers.highlight}}</p>
+
+        <audio controls>
+          <source src="{{ link }}" type="audio/mp3">
+          <p>Your browser does not support HTML5 audio :(</p>
+        </audio>
+      </article>
+      `,
     },
   }),
   instantsearch.widgets.configure({
