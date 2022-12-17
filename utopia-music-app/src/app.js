@@ -23,7 +23,7 @@ search.addWidgets([
         <p>{{#helpers.highlight}}{ "attribute": "description" }{{/helpers.highlight}}</p>
 
         <audio controls>
-          <source src="{{ link }}" type="audio/mp3">
+          <source src="{{ link }}" type="audio/mpeg">
           <p>Your browser does not support HTML5 audio :(</p>
         </audio>
       </article>
