@@ -106,5 +106,11 @@ dist
 # Parcel cache
 .parcel-cache/
 
+### IntelliJ IDEA ###
+.idea/
+*.iws
+*.iml
+*.ipr
+
 # Other
 .DS_Store

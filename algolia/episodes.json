@@ -52,7 +52,9 @@
     "subtitle": {
       "__prefix": "itunes",
       "__text": "01 Akiro ft Mullally - Feel again (Extended edit) 02 Sonny Fodera & King Henry ft Aluna Geor..."
-    }
+    },
+    "youtube": "https://www.youtube.com/watch?v=jdoR7E7b4Mo",
+    "youtube_embed": "<iframe width='560' height='315' src='https://www.youtube.com/embed/jdoR7E7b4Mo' title='YouTube video player' frameborder='0' allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture' allowfullscreen></iframe>"
   },
   {
     "title": "In The Mix - Apr 2020",
